@@ -1,0 +1,14 @@
+.big-img {
+    background-image: url(/assents/images/hero-img\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 993px;
+}
+
+@include mobile() {
+    .big-img {
+        height: 353px;
+        background-size: 100%;
+    }
+}

@@ -1,0 +1,54 @@
+.hero{
+    padding: 95px 0 35px 0 ;
+    color: white;
+    &__title{
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 88px;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 27px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 95px;
+    }
+    &__btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        .btn{
+            padding: 20px 40px;
+        }
+    }
+}
+@include mobile(){
+    .hero{
+        padding: 67px 0 57px 0;
+        &__title{
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 62px;
+            width: 70%;
+            margin-bottom: 17px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 67px;
+            width: 66%;
+        }
+        &__btns{
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+        }
+    }
+}

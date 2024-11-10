@@ -1,0 +1,23 @@
+.btn{
+    padding: 13px 46px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+.btn-primary{
+    border: 1px solid white;
+    background-color: #181818;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        background-color: #4452FE;
+    }
+}
+.btn-secindry{
+    background-color: #4452FE;
+    border: 1px solid #4452FE;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        border: 1px solid white;
+        background-color: #181818;
+    }
+}
